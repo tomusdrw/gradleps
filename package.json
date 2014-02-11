@@ -1,0 +1,18 @@
+{
+  "name": "gradleps",
+  "version": "0.0.1",
+  "description": "Automatically search maven central and add dependency to build.gradle.",
+  "main": "src/gradleps.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tomasz Drwiega",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "~2.1.0",
+    "restler": "~3.1.0",
+    "q": "~1.0.0",
+    "colors": "~0.6.2",
+    "prompt": "~0.2.12"
+  }
+}
