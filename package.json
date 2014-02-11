@@ -1,13 +1,20 @@
 {
   "name": "gradleps",
   "version": "0.0.1",
-  "description": "Automatically search maven central and add dependency to build.gradle.",
+  "description": "Search Maven Central and easily add dependency to your Gradle build file.",
   "main": "src/gradleps.js",
   "bin": {
-    "gradleps": "./src/gradleps.js
+    "gradleps": "./src/gradleps.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bugs": {
+    "url" : "https://github.com/tomusdrw/gradleps/issues"
+  },
+  "repository" :{ 
+    "type" : "git",
+    "url" : "https://github.com/tomusdrw/gradleps.git"
   },
   "keywords": "maven gradle build automate",
   "author": "Tomusdrw <tomusdrw@gmail.com>",
