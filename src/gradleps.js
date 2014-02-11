@@ -1,3 +1,5 @@
+#!/usr/bin/node
+
 var program = require('commander');
 var colors = require('colors');
 var prompt = require('prompt');
@@ -31,7 +33,7 @@ var promptData = {
 };
 
 program
-    .version('0.0.1');
+    .version('0.0.2');
 
 program
     .command('install <package>')
