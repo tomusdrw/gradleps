@@ -3,10 +3,14 @@
   "version": "0.0.1",
   "description": "Automatically search maven central and add dependency to build.gradle.",
   "main": "src/gradleps.js",
+  "bin": {
+    "gradleps": "./src/gradleps.js
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Tomasz Drwiega",
+  "keywords": "maven gradle build automate",
+  "author": "Tomusdrw <tomusdrw@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "commander": "~2.1.0",
