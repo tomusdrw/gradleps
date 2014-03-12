@@ -33,7 +33,7 @@ var promptData = {
 };
 
 program
-    .version('0.0.2');
+    .version('0.0.3');
 
 program
     .command('install <package>')
@@ -92,10 +92,7 @@ program
         }, common.badRequest);
     });
 
-program
-    .command("*")
-    .action(function() {
-        program.outputHelp();
-    });
-
-program.parse(process.argv);
+var d = program.parse(process.argv);
+if (d.args.length === 0) {
+    program.outputHelp();
+}

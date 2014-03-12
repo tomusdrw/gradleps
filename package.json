@@ -1,29 +1,29 @@
 {
-  "name": "gradleps",
-  "version": "0.0.2",
-  "description": "Search Maven Central and easily add dependency to your Gradle build file.",
-  "main": "src/gradleps.js",
-  "bin": {
-    "gradleps": "./src/gradleps.js"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "bugs": {
-    "url" : "https://github.com/tomusdrw/gradleps/issues"
-  },
-  "repository" :{ 
-    "type" : "git",
-    "url" : "https://github.com/tomusdrw/gradleps.git"
-  },
-  "keywords": "maven gradle build automate",
-  "author": "Tomusdrw <tomusdrw@gmail.com>",
-  "license": "MIT",
-  "dependencies": {
-    "commander": "~2.1.0",
-    "restler": "~3.1.0",
-    "q": "~1.0.0",
-    "colors": "~0.6.2",
-    "prompt": "~0.2.12"
-  }
+    "name": "gradleps",
+    "version": "0.0.3",
+    "description": "Search Maven Central and easily add dependency to your Gradle build file.",
+    "main": "src/gradleps.js",
+    "bin": {
+        "gradleps": "./src/gradleps.js"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "bugs": {
+        "url": "https://github.com/tomusdrw/gradleps/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/tomusdrw/gradleps.git"
+    },
+    "keywords": "maven gradle build automate",
+    "author": "Tomusdrw <tomusdrw@gmail.com>",
+    "license": "MIT",
+    "dependencies": {
+        "commander": "~2.1.0",
+        "restler": "~3.1.0",
+        "q": "~1.0.0",
+        "colors": "~0.6.2",
+        "prompt": "~0.2.12"
+    }
 }

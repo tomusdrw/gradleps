@@ -35,5 +35,8 @@ Is it okay? [Y/n/1/2/3/4] choice  Y
 All done!
 ```
 
+## Changelog
+0.0.3 - Just print the dependency if dependencies cannot be found.
+
 ## Contribution
 Any contribution is welcome. Please share your ideas!
