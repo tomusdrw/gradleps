@@ -36,6 +36,7 @@ All done!
 ```
 
 ## Changelog
+0.0.4 - Fixed shebang to more generic (thanks to fbukevin)
 0.0.3 - Just print the dependency if dependencies cannot be found.
 
 ## Contribution
